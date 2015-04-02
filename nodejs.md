@@ -25,7 +25,7 @@ router.post('/’, function(req, res) {
     "connect-mongo": "0.8.0",
     "bson": "0.2.0",
     "connect-flash": "0.1.1"
-<br/>这里我多了bson，之前运行时报错需要module “bson”，所以添加了这个moudle。“connect-mongo”0.1.0 会报错‘setting ttl index on collection’，升级0.8.0问题解决。
+<br/>这里我多了bson，之前运行时报错需要module “bson”，所以添加了这个module。“connect-mongo”0.1.0 会报错‘setting ttl index on collection’，升级0.8.0问题解决。
 <br/>之后按照参考的到了用flash显示注册成功信息时，又报错：“Cannot read property ‘length’ of undefined”，暂时未解决此问题。。。
 
 #2015-4-2 18:29
